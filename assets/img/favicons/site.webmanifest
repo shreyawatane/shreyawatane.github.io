@@ -1,0 +1,20 @@
+{
+  "name": "Shreya Watane",
+  "short_name": "F0xY.sH",
+  "description": "Cybersecurity Blog by Shreya Watane",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/favicons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
