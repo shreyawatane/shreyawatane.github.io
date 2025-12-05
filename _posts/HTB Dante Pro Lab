@@ -1,8 +1,18 @@
+---
+title: "My Journey into HTB Dante Pro Lab"
+date: 2025-12-05 19:25:00 +0530
+categories: [HackTheBox, Walkthroughs]
+tags: [htb, dante, red-team, pivoting, pentesting, beginner]
+description: "A beginner's honest guide to tackling Hack The Box's Dante Pro Lab—pivoting, privilege escalation, and real enterprise-style challenges"
+---
+
 # My Journey into HTB Dante Pro Lab
 
 I was a beginner trying to push my offensive security skills beyond random CTF boxes and YouTube tutorials. I knew the basics, but this was my first real taste of an "enterprise-style" lab, and it showed me very quickly where I was strong and where I was painfully weak.
 
 If you're also starting out and thinking about Dante, this post is for you. Think of it less as a flex and more as a field guide from someone just a few steps ahead.
+
+---
 
 ## How Dante Feels as a Beginner
 
@@ -14,8 +24,9 @@ As a beginner, here's how it felt:
 - **In the middle**: frustrating but strangely addictive
 - **By the end**: everything started to "click" and I could actually see my progress
 
-
 If you're worried that you're "not ready," that's normal. The lab will force you to slow down, take notes, and think like a real pentester instead of just copy-pasting exploits.
+
+---
 
 ## Skills You'll Actually Use (Not Just Buzzwords)
 
@@ -34,6 +45,8 @@ Using one compromised machine to get to another—passing credentials around, te
 Using my web background (XSS/SQLi/Burp) to get that initial foothold on some machines.
 
 You don't need to be an expert in all of these before you start, but you should at least be comfortable with Linux basics, nmap, and a proxy like Burp. The rest you can learn as you go—because the lab will force you to.
+
+---
 
 ## Pivoting: The Part That Hurts (But Teaches the Most)
 
@@ -56,6 +69,8 @@ That's when I learned a few survival rules:
 - Write down working commands as you go, don't trust your memory
 
 You don't need to be a tunneling ninja on day one, but be ready to practice. Pivoting is where Dante really feels like a "mini internal engagement" and not just another CTF.
+
+---
 
 ## Tools That Helped Me Survive
 
@@ -81,6 +96,8 @@ For watching what's running in the background on Linux. Cron jobs and scheduled 
 
 Also, have a small library of **reverse shell payloads** ready (from sites like [revshells.com](https://revshells.com) or popular GitHub repos). Generating a new one every time wastes a lot of focus.
 
+---
+
 ## Little Problems That Taught Me Big Lessons
 
 Because I'm a beginner, I hit issues that more experienced people probably blow past, but those problems were actually great teachers:
@@ -97,6 +114,8 @@ This one hurt. I learned to keep a simple loot file:
 
 These aren't glamorous, but they're the kind of "real" problems you face on actual assessments.
 
+---
+
 ## If You're a Beginner Thinking About Dante
 
 Here's what I'd tell you, as someone who went in as a learner, not an expert:
@@ -105,6 +124,8 @@ Here's what I'd tell you, as someone who went in as a learner, not an expert:
 - You **do** need patience, curiosity, and a willingness to read, test, and fail
 - Take notes like you're going to explain your path to someone else tomorrow
 - Don't be afraid to step away, read about a concept, then come back
+
+![Dante Pro Lab Certificate](./assets/dante-cert.png)
 
 Dante won't magically turn you into a red teamer overnight. But if you treat it like a structured playground—where every stuck moment is a chance to learn something specific—you'll come out much stronger and much more confident.
 
@@ -118,4 +139,6 @@ That feeling alone makes the journey worth it.
 
 ---
 
-*Tags: #HackTheBox #Dante #OffensiveSecurity #RedTeam #Pentesting #BeginnersGuide*
+### Author Note
+*Written by a cybersecurity enthusiast exploring offensive security one lab at a time—sharing the struggles, breakthroughs, and lessons learned along the way.*
+
